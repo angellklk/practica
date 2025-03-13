@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos del menú de navegación */
+nav {
+    background-color: #0056b3;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos del slider */
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos de las entradas */
+.entradas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.entrada {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+    transition: transform 0.3s;
+}
+
+.entrada:hover {
+    transform: scale(1.05);
+}
+
+.entrada img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.entrada p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.entrada a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
